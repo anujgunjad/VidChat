@@ -1,0 +1,20 @@
+{
+  "name": "vidchat",
+  "version": "1.0.0",
+  "description": "Video Call App",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "Anuj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.7.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
